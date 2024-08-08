@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://5idu0ltgvss1"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_3sqoa"]
+
+[sub_resource type="GDScript" id="GDScript_rrkcl"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_3sqoa")
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+position = Vector2(601, 314)
+script = SubResource("GDScript_rrkcl")
